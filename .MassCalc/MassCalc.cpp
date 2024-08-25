@@ -1,5 +1,16 @@
 ﻿#include"MassCalc.h"
 
+
+MassCalc::MassCalc() {
+    for (int i = 0; i < 68; i++) {
+        order_map[Eles.at(i).symbol] = Eles.at(i).number;
+        ele_map[Eles.at(i).number] = Eles.at(i).symbol;
+        mass_map[Eles.at(i).number] = fromIntToDigitArr(Eles.at(i).mass);
+        oppo_mass_map[Eles.at(i).number] = fromIntToOppoDigitArr(Eles.at(i).mass);
+    }
+}
+
+
 std::tuple < std::vector<int>/*元素对应原子序数列表*/, std::vector<std::vector<int>>/*元素原子个数列表*/,
     int/*状态（返回值）*/, std::wstring/*返回字符串信息（目前仅有函数内部需使用）*/ >
     MassCalc::ListGenerating(std::wstring rest/*剩余未读取字符串*/) {
@@ -164,6 +175,7 @@ std::tuple < std::vector<int>/*元素对应原子序数列表*/, std::vector<std
 
     return std::make_tuple(orderList, countList, SUCCESS, L"");
 }
+
 
 void MassCalc::eventualEleListGenerating(std::vector<int> orderList, std::vector<std::vector<int>> countList){
     std::vector<int> table[120];//创建哈希表，该哈希表各成员对应最终值为倒序

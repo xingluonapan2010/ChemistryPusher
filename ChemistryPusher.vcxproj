@@ -131,6 +131,7 @@
     <ClInclude Include=".HighAccCalc\HighAccCalc.h" />
     <ClInclude Include=".MassCalc\MassCalc.h" />
     <ClInclude Include=".OverStar\OverStar.h" />
+    <ClInclude Include=".TypeConversion\TypeConversion.h" />
     <ClInclude Include="ChemistryPusher.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
@@ -141,6 +142,7 @@
     <ClCompile Include=".HighAccCalc\HighAccCalc.cpp" />
     <ClCompile Include=".MassCalc\MassCalc.cpp" />
     <ClCompile Include=".OverStar\OverStar.cpp" />
+    <ClCompile Include=".TypeConversion\TypeConversion.cpp" />
     <ClCompile Include="ChemistryPusher.cpp" />
   </ItemGroup>
   <ItemGroup>

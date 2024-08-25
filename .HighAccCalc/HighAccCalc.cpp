@@ -1,28 +1,5 @@
 #include"HighAccCalc.h"
 
-std::vector<int> HighAccCalc::fromWstringtoOppoDigitArr(std::wstring wh) {//(µ¹Ðò)
-    std::vector<int> DigitArr;
-    for (int i = wh.size() - 1; i >= 0; i--) {
-        DigitArr.push_back(wh[i] - L'0');
-    }
-    return DigitArr;
-}
-
-std::vector<int> HighAccCalc::oppoDigitArr(std::vector<int> wh) {
-    std::vector<int> oppo;
-    for (int i = wh.size() - 1; i >= 0; i--) {
-        oppo.push_back(wh[i]);
-    }
-    return oppo;
-}
-
-std::wstring HighAccCalc::fromDigitArrtoOppoWstring(std::vector<int> wh) {//(»ØÕý)
-    std::wstring Wstr;
-    for (int i = wh.size() - 1; i >= 0; i--) {
-        Wstr.push_back(wh[i] + L'0');
-    }
-    return Wstr;
-}
 
 std::vector<int> HighAccCalc::HighAccCalcPlus(std::vector<int> a, std::vector<int> b) {
     std::vector<int> p;
@@ -42,6 +19,7 @@ std::vector<int> HighAccCalc::HighAccCalcPlus(std::vector<int> a, std::vector<in
     }
     return p;
 }
+
 
 std::vector<int> HighAccCalc::HighAccCalcTimes(std::vector<int> a, std::vector<int> b) {
     std::vector<int> p;

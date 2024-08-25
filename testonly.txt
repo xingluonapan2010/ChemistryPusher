@@ -174,3 +174,4 @@ static std::tuple < std::vector<std::vector<int>>/*元素对应原子序数列�
     return std::make_tuple(orderList, countList, SUCCESS, L"");
 }
 C₂₇₃N₇₅H₅₄₄N₁₄₅Ga₈₇₄N₉₇₅C₅Mg₁₃₂₉Pb₄
+HHeLiBeBCNOFNeNaMgAlSiPSClArKCaTiVFeCoNiCuZnGaGeAsKr

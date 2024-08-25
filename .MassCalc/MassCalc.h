@@ -1,13 +1,15 @@
 #pragma once
-#include<string>
-#include<vector>
-#include<tuple>
-#include<map>
-#include<Windows.h>
+
 #include"../.ChemistryElements/ChemistryElements.h"
 #include"../.HighAccCalc/HighAccCalc.h"
 #include"../.OverStar/OverStar.h"
+#include"../.TypeConversion/TypeConversion.h"
 
+#include<map>
+#include<string>
+#include<tuple>
+#include<vector>
+#include<Windows.h>
 
 #define SUCCESS 100
 #define MISMATCHED_BRACKETS 200
@@ -21,9 +23,9 @@
 
 typedef int STATE;//状态类型
 
-class MassCalc : public ChemistryElements, public HighAccCalc {//继承ChemistryElements类
+class MassCalc : public ChemistryElements, public HighAccCalc, public TypeConversion {
 public:
-    MassCalc() = default;
+    MassCalc();
 
     //生成RLM列表并发送至回调函数接收并处理
     std::tuple < std::vector<int>/*元素对应原子序数列表*/, std::vector<std::vector<int>>/*元素原子个数列表*/,
@@ -37,6 +39,23 @@ public:
     std::vector<int> eventualTotalMassReturn() {
         return this->eventualTotalMass;
     }
+
+    //返回暂存列表数据
+    std::pair<std::vector<int>, std::vector<std::vector<int>>> listDataReturn() {
+        return std::make_pair(eventualOrderList, eventualCountList);
+    }
+
+    //清空列表
+    void clear() {
+        eventualOrderList.clear();
+        eventualCountList.clear();
+        eventualTotalMass.clear();
+    }
+
+    std::map<std::wstring, int> order_map;//元素对应原子序数
+    std::map<int, std::wstring> ele_map;//原子序数对应元素
+    std::map<int, std::vector<int>> mass_map;//原子序数对应正序相对原子质量
+    std::map<int, std::vector<int>> oppo_mass_map;//原子序数对应倒序相对原子质量
 
 private:
     std::vector<int> eventualOrderList;//记录最终元素对应原子序数列表，该列表为正序

@@ -1,4 +1,5 @@
 ﻿#include"OverStar.h"
+
 std::map<wchar_t, wchar_t> smaller = {
     {L'1',L'₁'},
     {L'2',L'₂'},
@@ -24,6 +25,8 @@ std::map<wchar_t, wchar_t> bigger = {
     {L'₉',L'9'},
     {L'₀',L'0'}
 };
+
+
 namespace OverStar {
     bool isDigitWCHART(wchar_t wh) {
         if (wh == L'1' || wh == L'2' || wh == L'3' || wh == L'4' || wh == L'5' || wh == L'6' || wh == L'7' || wh == L'8' || wh == L'9' || wh == L'0')return true;
