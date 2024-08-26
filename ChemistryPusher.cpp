@@ -11,12 +11,20 @@ struct listPasser {
     std::wstring* massGet = nullptr, * numGet = nullptr,
         * elenameGet = nullptr, * eletolmassGet = nullptr;
     double* massFractionAcc = nullptr;
+    listPasser(){}
     listPasser(int newSize) :listSize(newSize) {
         massGet = new std::wstring[listSize];
         numGet = new std::wstring[listSize];
         elenameGet = new std::wstring[listSize];
         eletolmassGet = new std::wstring[listSize];
         massFractionAcc = new double[listSize];
+    }
+    ~listPasser() {
+        delete[] massGet;
+        delete[] numGet;
+        delete[] elenameGet;
+        delete[] eletolmassGet;
+        delete[] massFractionAcc;
     }
 };
 
@@ -76,7 +84,7 @@ LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    hIngredient(HWND, UINT, WPARAM, LPARAM);
 static bool         onUserInputing(std::wstring& inputchar, int len);
 static void         RLMInputVisualDealer(HWND hWnd, int wmId);
-static listPasser   prelistCalc();
+static listPasser*  prelistCalc();
 static void         ListShow(listPasser* listData, HWND hWndParent);
 static void         onCreateIngreDlgCombobox(HWND hDlg);
 static void         ChangeFractionData(int number, HWND hListview, listPasser* listData);
@@ -320,9 +328,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         case ID_INGREDIENTS_LIST_BUTTON: {
             if (!IngreBtnAble)return FALSE;
 
-            listPasser listTmpDeliver = prelistCalc();
+            listPasser* listTmpDeliver = prelistCalc();
 
-            HWND hIngreDlg = CreateWindow(L"IngredientsDialog", L"Chemistry Ingredients List", WS_SYSMENU | WS_DLGFRAME, CW_USEDEFAULT, 0, 600, 675, hWnd, NULL, hInst, (LPVOID)&listTmpDeliver);
+            HWND hIngreDlg = CreateWindow(L"IngredientsDialog", L"Chemistry Ingredients List", WS_SYSMENU | WS_DLGFRAME, CW_USEDEFAULT, 0, 600, 675, hWnd, NULL, hInst, (LPVOID)listTmpDeliver);
 
             if (!hIngreDlg)return FALSE;
 
@@ -382,8 +390,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 INT_PTR CALLBACK hIngredient(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam) {
     switch (uMsg) {
     case WM_CREATE: {
-        listPasser* listTmpGetter = new listPasser(((listPasser*)((CREATESTRUCT*)lParam)->lpCreateParams)->listSize);
-        *listTmpGetter = *(listPasser*)((CREATESTRUCT*)lParam)->lpCreateParams;
+        listPasser* listTmpGetter = (listPasser*)((CREATESTRUCT*)lParam)->lpCreateParams;
         EnableWindow(g_hWnd, FALSE);
         if (listTmpGetter->showMassFraction) {
             HWND FractionStatic = CreateWindow(L"static", L"质量分数保留小数位数：", WS_CHILD | WS_VISIBLE, 50, 40, 180, 20, hDlg, NULL, NULL, NULL);
@@ -424,17 +431,9 @@ INT_PTR CALLBACK hIngredient(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
     case WM_CLOSE: {
         //delete listGetter及其成员
         listPasser* listGetter = (listPasser*)(GetWindowLongPtr(hDlg, GWLP_USERDATA));
-        delete[] listGetter->elenameGet;
-        delete[] listGetter->eletolmassGet;
-        delete[] listGetter->massFractionAcc;
-        delete[] listGetter->massGet;
-        delete[] listGetter->numGet;
         delete listGetter;
         EnableWindow(g_hWnd, TRUE);
         DestroyWindow(hDlg);
-        break;
-    }
-    case WM_DESTROY: {
         break;
     }
     default:
@@ -492,25 +491,25 @@ static void RLMInputVisualDealer(HWND hWnd, int wmId) {
 
 
 //成分表预先计算
-static listPasser prelistCalc() {
+static listPasser* prelistCalc() {
     auto listGet = MC.listDataReturn();
     int listSize = listGet.first.size();
-    listPasser lip(listSize);
+    listPasser* lip = new listPasser(listSize);
 
     for (int row = 0; row < listSize; row++) {
         std::vector<int> tmp1 = MC.oppo_mass_map[listGet.first.at(row)];
         std::vector<int> tmp2 = listGet.second.at(row);
-        lip.massGet[row] = MC.fromDigitArrtoOppoWstring(tmp1);
-        lip.numGet[row] = MC.fromDigitArrtoOppoWstring(tmp2);
-        lip.elenameGet[row] = MC.ele_map[listGet.first.at(row)];
-        lip.eletolmassGet[row] = MC.fromDigitArrtoOppoWstring(MC.HighAccCalcTimes(tmp1, tmp2));
+        lip->massGet[row] = MC.fromDigitArrtoOppoWstring(tmp1);
+        lip->numGet[row] = MC.fromDigitArrtoOppoWstring(tmp2);
+        lip->elenameGet[row] = MC.ele_map[listGet.first.at(row)];
+        lip->eletolmassGet[row] = MC.fromDigitArrtoOppoWstring(MC.HighAccCalcTimes(tmp1, tmp2));
     }
 
     if (MC.eventualTotalMassReturn().size() <= 300) {
-        lip.showMassFraction = true;
+        lip->showMassFraction = true;
         std::wstring totalGet = MC.fromDigitArrtoOppoWstring(MC.eventualTotalMassReturn());
         for (int row = 0; row < listSize; row++) {
-            lip.massFractionAcc[row] = _wtof(lip.eletolmassGet[row].c_str()) / _wtof(totalGet.c_str());
+            lip->massFractionAcc[row] = _wtof(lip->eletolmassGet[row].c_str()) / _wtof(totalGet.c_str());
         }
     }
     
@@ -586,6 +585,7 @@ static void onCreateIngreDlgCombobox(HWND hDlg) {
 
     SendMessage(FractionComboBox, CB_SETCURSEL, 0, UNUSED);
 }
+
 
 //显式改变质量分数保留位数
 static void ChangeFractionData(int number, HWND hListview, listPasser* listData) {

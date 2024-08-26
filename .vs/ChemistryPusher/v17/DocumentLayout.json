@@ -3,39 +3,69 @@
   "WorkspaceRootPath": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:testonly.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UM\\WINUSER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:ChemistryPusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.HighAccCalc\\HighAccCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.MassCalc\\MassCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.HighAccCalc\\HighAccCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.ChemistryElements\\ChemistryElements.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.MassCalc\\MassCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.TypeConversion\\TypeConversion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:ChemistryPusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.OverStar\\OverStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.MassCalc\\MassCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.HighAccCalc\\HighAccCalc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:ChemistryPusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.ChemistryElements\\ChemistryElements.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:testonly.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\Windows.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\winapifamily.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -48,35 +78,8 @@
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.TypeConversion\\TypeConversion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:targetver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\Windows.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.TypeConversion\\TypeConversion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.OverStar\\OverStar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.OverStar\\OverStar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{12BD6682-4411-4FC0-870F-DDC3E9E785F8}|ChemistryPusher.vcxproj|solutionrelative:.HighAccCalc\\HighAccCalc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,33 +100,15 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "xstring",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
-              "ViewState": "AQIAAF8MAAAAAAAAAAAMwGgMAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-24T14:52:35.577Z",
+              "DocumentIndex": 0,
+              "Title": "WinUser.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinUser.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinUser.h",
+              "ViewState": "AQIAAA4sAAAAAAAAAAAAABIsAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-26T02:39:10.87Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "strnlen.cpp",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\string\\strnlen.cpp",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\string\\strnlen.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAvwLQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-21T15:18:31.801Z"
             },
             {
               "$type": "Document",
@@ -133,20 +118,10 @@
               "RelativeDocumentMoniker": "ChemistryPusher.cpp",
               "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.cpp",
               "RelativeToolTip": "ChemistryPusher.cpp",
-              "ViewState": "AQIAAIABAAAAAAAAAAAowLABAAAhAAAA",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPAAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-02T11:11:26.474Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "winapifamily.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\winapifamily.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\winapifamily.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-11T10:15:05.872Z"
             },
             {
               "$type": "Document",
@@ -156,33 +131,43 @@
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\Windows.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-11T10:15:02.506Z"
+              "WhenOpened": "2024-08-11T10:15:02.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MassCalc.cpp",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp",
-              "RelativeDocumentMoniker": ".MassCalc\\MassCalc.cpp",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp",
-              "RelativeToolTip": ".MassCalc\\MassCalc.cpp",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 17,
+              "Title": "winapifamily.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\winapifamily.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\shared\\winapifamily.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-11T10:15:05.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "strnlen.cpp",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\string\\strnlen.cpp",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.22621.0\\ucrt\\string\\strnlen.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAvwLQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-26T05:36:06.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T15:18:31.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "testonly.txt",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt",
-              "RelativeDocumentMoniker": "testonly.txt",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt",
-              "RelativeToolTip": "testonly.txt",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAAALAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-04T13:36:11.767Z",
-              "EditorCaption": ""
+              "DocumentIndex": 16,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ViewState": "AQIAAI8MAAAAAAAAAAAMwGgMAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-24T14:52:35.577Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -190,7 +175,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "OverStar.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h",
+              "RelativeDocumentMoniker": ".OverStar\\OverStar.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h",
+              "RelativeToolTip": ".OverStar\\OverStar.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-26T05:47:47.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "targetver.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h",
+              "RelativeDocumentMoniker": "targetver.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h",
+              "RelativeToolTip": "targetver.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-10T01:28:45.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TypeConversion.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h",
+              "RelativeDocumentMoniker": ".TypeConversion\\TypeConversion.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h",
+              "RelativeToolTip": ".TypeConversion\\TypeConversion.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-10T01:35:34.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ChemistryElements.cpp",
               "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.cpp",
               "RelativeDocumentMoniker": ".ChemistryElements\\ChemistryElements.cpp",
@@ -203,7 +227,63 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HighAccCalc.cpp",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp",
+              "RelativeDocumentMoniker": ".HighAccCalc\\HighAccCalc.cpp",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp",
+              "RelativeToolTip": ".HighAccCalc\\HighAccCalc.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T02:10:27.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MassCalc.cpp",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp",
+              "RelativeDocumentMoniker": ".MassCalc\\MassCalc.cpp",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.cpp",
+              "RelativeToolTip": ".MassCalc\\MassCalc.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-26T05:36:06.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resource.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\resource.h",
+              "RelativeDocumentMoniker": "resource.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\resource.h",
+              "RelativeToolTip": "resource.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-10T01:28:47.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MassCalc.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.h",
+              "RelativeDocumentMoniker": ".MassCalc\\MassCalc.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.h",
+              "RelativeToolTip": ".MassCalc\\MassCalc.h",
+              "ViewState": "AQIAACcAAAAAAAAAAABIwDgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-26T05:36:27.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "HighAccCalc.h",
               "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.h",
               "RelativeDocumentMoniker": ".HighAccCalc\\HighAccCalc.h",
@@ -216,43 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ChemistryElements.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.h",
-              "RelativeDocumentMoniker": ".ChemistryElements\\ChemistryElements.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.h",
-              "RelativeToolTip": ".ChemistryElements\\ChemistryElements.h",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-25T08:51:25.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChemistryPusher.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h",
-              "RelativeDocumentMoniker": "ChemistryPusher.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h",
-              "RelativeToolTip": "ChemistryPusher.h",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-25T08:43:39.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MassCalc.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.h",
-              "RelativeDocumentMoniker": ".MassCalc\\MassCalc.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.MassCalc\\MassCalc.h",
-              "RelativeToolTip": ".MassCalc\\MassCalc.h",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-26T05:36:27.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "framework.h",
               "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\framework.h",
               "RelativeDocumentMoniker": "framework.h",
@@ -260,11 +304,50 @@
               "RelativeToolTip": "framework.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-06T13:26:38.611Z"
+              "WhenOpened": "2024-08-06T13:26:38.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "ChemistryPusher.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h",
+              "RelativeDocumentMoniker": "ChemistryPusher.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\ChemistryPusher.h",
+              "RelativeToolTip": "ChemistryPusher.h",
+              "ViewState": "AQIAABcAAAAAAAAAAABAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-25T08:43:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChemistryElements.h",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.h",
+              "RelativeDocumentMoniker": ".ChemistryElements\\ChemistryElements.h",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.ChemistryElements\\ChemistryElements.h",
+              "RelativeToolTip": ".ChemistryElements\\ChemistryElements.h",
+              "ViewState": "AQIAAFcAAAAAAAAAAABIwGIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-25T08:51:25.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "testonly.txt",
+              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt",
+              "RelativeDocumentMoniker": "testonly.txt",
+              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\testonly.txt",
+              "RelativeToolTip": "testonly.txt",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAAALAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-04T13:36:11.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TypeConversion.cpp",
               "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.cpp",
               "RelativeDocumentMoniker": ".TypeConversion\\TypeConversion.cpp",
@@ -272,71 +355,12 @@
               "RelativeToolTip": ".TypeConversion\\TypeConversion.cpp",
               "ViewState": "AQIAACcAAAAAAAAAAAAowDMAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-10T01:35:42.008Z"
+              "WhenOpened": "2024-08-10T01:35:42.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "targetver.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h",
-              "RelativeDocumentMoniker": "targetver.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\targetver.h",
-              "RelativeToolTip": "targetver.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-10T01:28:45.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Resource.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\resource.h",
-              "RelativeDocumentMoniker": "resource.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\resource.h",
-              "RelativeToolTip": "resource.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-10T01:28:47.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TypeConversion.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h",
-              "RelativeDocumentMoniker": ".TypeConversion\\TypeConversion.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.TypeConversion\\TypeConversion.h",
-              "RelativeToolTip": ".TypeConversion\\TypeConversion.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-10T01:35:34.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OverStar.h",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h",
-              "RelativeDocumentMoniker": ".OverStar\\OverStar.h",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.h",
-              "RelativeToolTip": ".OverStar\\OverStar.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-26T05:47:47.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HighAccCalc.cpp",
-              "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp",
-              "RelativeDocumentMoniker": ".HighAccCalc\\HighAccCalc.cpp",
-              "ToolTip": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.HighAccCalc\\HighAccCalc.cpp",
-              "RelativeToolTip": ".HighAccCalc\\HighAccCalc.cpp",
-              "ViewState": "AQIAACoAAAAAAAAAAABIwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-03T02:10:27.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "OverStar.cpp",
               "DocumentMoniker": "D:\\\u738B\u6E05\u6E90\\Else\\VCProgamming\\ChemistryPusher\\.OverStar\\OverStar.cpp",
               "RelativeDocumentMoniker": ".OverStar\\OverStar.cpp",
@@ -344,7 +368,8 @@
               "RelativeToolTip": ".OverStar\\OverStar.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-26T05:48:06.513Z"
+              "WhenOpened": "2024-05-26T05:48:06.513Z",
+              "EditorCaption": ""
             }
           ]
         }
