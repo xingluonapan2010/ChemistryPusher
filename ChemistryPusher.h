@@ -13,8 +13,10 @@
 
 #define ITERID_OUTPUT_END 1003//记录static结束ID的后一个空ID，以便批量操作
 #define ITERID_INPUT_END 2003//记录edit结束ID的后一个空ID，以便批量操作
+#define ITERID_CLICK_END 3003//记录MassCalc主界面button结束ID的后一个ID，以便批量操作
 #define ITERID_OUTPUT_BEGIN 1000//记录static起始ID，以便批量操作
 #define ITERID_INPUT_BEGIN 2000//记录edit起始ID，以便批量操作
+#define ITERID_CLICK_BEGIN 3000//记录MassCalc主界面button起始ID，以便批量操作
 
 //控件ID
 

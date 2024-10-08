@@ -190,11 +190,9 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 }
 
 
-int tmp = 0;
 //窗口回调函数
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-    
     switch (message)
     {
     case WM_CREATE: {
@@ -237,17 +235,17 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SendMessageW(GetDlgItem(hWnd, iterID), WM_SETFONT, (WPARAM)FCC.inputFont, TRUE);
         }
 
+        //type=button,id=ID_BUTTON,act=set font
+        for (int iterID = ITERID_CLICK_BEGIN; iterID < ITERID_CLICK_END; iterID++) {
+            SendMessageW(GetDlgItem(hWnd, iterID), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
+        }
+
         //type=edit,id=ID_INPUT_EQUATION,act=limit text length
         SendMessageW(GetDlgItem(hWnd, ID_INPUT_EQUATION), EM_LIMITTEXT, 1000, UNUSED);
 
         //type=edit,id=ID_INPUT_NUM,act=limit text length
         SendMessageW(GetDlgItem(hWnd, ID_INPUT_NUM), EM_LIMITTEXT, 1000, UNUSED);
 
-        //type=button,id=ID_BUTTON,act=set font
-        SendMessageW(GetDlgItem(hWnd, ID_CLICKBUTTON), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
-        SendMessageW(GetDlgItem(hWnd, ID_MCCLEAR), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
-        SendMessageW(GetDlgItem(hWnd, ID_INGREDIENTS_LIST_BUTTON), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
-        
         break;
     }
     case WM_COMMAND:
@@ -368,7 +366,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_SIZE: {
         int width = LOWORD(lParam);
         int height = HIWORD(lParam);
-        tmp = width;
         if (width >= 600 && height >= 300) {
             MoveWindow(GetDlgItem(hWnd, ID_OUTPUT_EQUATION), width / 2 - 325/*ML250+75*/, height / 2 - 145/*MU15+20+30+15+30+35*/, 250, 30, TRUE);
             MoveWindow(GetDlgItem(hWnd, ID_INPUT_EQUATION), width / 2 - 325, height / 2 - 100/*MU15+20+30+35*/, 250, 30, TRUE);
@@ -614,7 +611,6 @@ static void onCreateIngreDlgCombobox(HWND hDlg) {
 
 //显式改变质量分数保留位数
 static void ChangeFractionData(int number, HWND hListview, listPasser* listData) {
-    
     LVITEM lvi;
     lvi.mask = LVIF_TEXT;
     lvi.iSubItem = 4;
@@ -624,6 +620,5 @@ static void ChangeFractionData(int number, HWND hListview, listPasser* listData)
         lvi.pszText = (LPWSTR)get.c_str();
         ListView_SetItem(hListview, &lvi);
     }
-    
 }
 
