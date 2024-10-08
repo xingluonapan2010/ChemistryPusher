@@ -190,7 +190,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 }
 
 
-
+int tmp = 0;
 //窗口回调函数
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
@@ -213,7 +213,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         CreateWindowW(L"edit", L"1", WS_VISIBLE | WS_CHILD | WS_BORDER | ES_CENTER | ES_NUMBER, 129, 250, 250, 30, hWnd, (HMENU)ID_INPUT_NUM, NULL, NULL);
 
         //type=button,id=ID_CLICKBUTTON,act=create
-        CreateWindowW(L"button", L"计算", WS_VISIBLE | WS_CHILD, 200, 320, 100, 40, hWnd, (HMENU)ID_CLICKBUTTON, NULL, NULL);
+        CreateWindowW(L"button", L"计算", WS_VISIBLE | WS_CHILD, 129, 320, 100, 40, hWnd, (HMENU)ID_CLICKBUTTON, NULL, NULL);
+
+        //type=button,id=ID_MCCLEAR,act=create
+        CreateWindowW(L"button", L"清空", WS_VISIBLE | WS_CHILD, 259, 320, 100, 40, hWnd, (HMENU)ID_MCCLEAR, NULL, NULL);
 
         //type=static,id=ID_OUTPUT_RESULT,act=create
         CreateWindowW(L"static", L"结果：", WS_VISIBLE | WS_CHILD, 529, 135, 250, 30, hWnd, (HMENU)ID_OUTPUT_RESULT, NULL, NULL);
@@ -242,6 +245,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
         //type=button,id=ID_BUTTON,act=set font
         SendMessageW(GetDlgItem(hWnd, ID_CLICKBUTTON), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
+        SendMessageW(GetDlgItem(hWnd, ID_MCCLEAR), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
         SendMessageW(GetDlgItem(hWnd, ID_INGREDIENTS_LIST_BUTTON), WM_SETFONT, (WPARAM)FCC.buttonFont, TRUE);
         
         break;
@@ -320,9 +324,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             default:
                 break;
             }
-            std::vector<int> orderListGet = std::get<0>(ListGeneratingRet);
-            std::vector<std::vector<int>> countListGet = std::get<1>(ListGeneratingRet);
-
+            break;
+        }
+        case ID_MCCLEAR: {
+            SendMessage(GetDlgItem(hWnd, ID_INPUT_EQUATION), WM_SETTEXT, UNUSED, (WPARAM)L"");
+            SendMessage(GetDlgItem(hWnd, ID_INPUT_NUM), WM_SETTEXT, UNUSED, (WPARAM)L"1");
+            //不用再将IngreBtnAble赋值为false，因为在调用WM_SETTEXT时系统已自动调用WM_COMMAND(wmId=ID_INPUT_EQUATION)
             break;
         }
         case ID_INGREDIENTS_LIST_BUTTON: {
@@ -358,6 +365,24 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         EndPaint(hWnd, &ps);
     }
     break;
+    case WM_SIZE: {
+        int width = LOWORD(lParam);
+        int height = HIWORD(lParam);
+        tmp = width;
+        if (width >= 600 && height >= 300) {
+            MoveWindow(GetDlgItem(hWnd, ID_OUTPUT_EQUATION), width / 2 - 325/*ML250+75*/, height / 2 - 145/*MU15+20+30+15+30+35*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_INPUT_EQUATION), width / 2 - 325, height / 2 - 100/*MU15+20+30+35*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_OUTPUT_NUM), width / 2 - 325, height / 2 - 50/*MU15+35*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_INPUT_NUM), width / 2 - 325, height / 2 - 5/*MD15+15-35*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_CLICKBUTTON), width / 2 - 315/*ML325-10*/, height / 2 + 45/*MD15+15+30+20-35*/, 100, 40, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_MCCLEAR), width / 2 - 185/*ML325-100-(250-100*2)+10*/, height / 2 + 45, 100, 40, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_OUTPUT_RESULT), width / 2 + 75, height / 2 - 105/*MU15+15+30+45*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_OUTPUT_RESULTVAL), width / 2 + 75, height / 2 - 60/*MU15+45*/, 250, 30, TRUE);
+            MoveWindow(GetDlgItem(hWnd, ID_INGREDIENTS_LIST_BUTTON), width / 2 + 125/*75+(250-150)/2*/, height / 2 - 10/*MD15+20-45*/, 150, 40, TRUE);
+        }
+
+        break;
+    }
     case WM_CTLCOLORSTATIC: {
         HDC hh = (HDC)wParam;//设备上下文句柄
         HWND ll = (HWND)lParam;//控件句柄
@@ -373,8 +398,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     }
     case WM_GETMINMAXINFO: {
         auto minLimit = (MINMAXINFO*)lParam;
-        minLimit->ptMinTrackSize.x = 508;
-        minLimit->ptMinTrackSize.y = 100;
+        minLimit->ptMinTrackSize.x = 750;
+        minLimit->ptMinTrackSize.y = 400;
         break;
     }
     case WM_DESTROY:
